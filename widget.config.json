@@ -1,0 +1,18 @@
+{
+  "packageId": "wpkDMVo7tYYTp",
+  "spaceId": "spcSG1dAqBp8S",
+  "entry": "./src/index.tsx",
+  "name": {
+    "zh-CN": "test",
+    "en-US": "test"
+  },
+  "icon": "./package_icon.png",
+  "cover": "./cover.png",
+  "authorIcon": "./author_icon.png",
+  "description": {
+    "zh-CN": "test 的描述",
+    "en-US": "test description"
+  },
+  "sandbox": true,
+  "website": "https://apitable.com"
+}

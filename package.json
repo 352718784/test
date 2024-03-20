@@ -1,0 +1,38 @@
+{
+  "name": "widget-test",
+  "version": "0.0.1",
+  "description": "a apitable widget",
+  "engines": {
+    "node": ">=8.x"
+  },
+  "keywords": [
+    "apitable",
+    "widgets",
+    "apitable widgets"
+  ],
+  "main": "./dist/index",
+  "module": "./dist/index",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "widget-cli start",
+    "release": "widget-cli release",
+    "build:pre": "yarn workspaces foreach --include '?(@apitable/widget-sdk)' -pt -j 8 run build"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@apitable/widget-sdk": "latest",
+    "typescript": "4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.10"
+  }
+}
